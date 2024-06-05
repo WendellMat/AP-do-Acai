@@ -5,10 +5,66 @@
     font-family: "Open Sans", sans-serif;
 }
 
+:root {
+    --main-color: #993399;
+    --main-bg-color: #ffffff;
+    --white-color: #ffffff;
+}
+
 body {
     display: flex;
     flex-flow: column;
     align-items: center;
-    background-color: #fff;
+    background-color: var(--main-bg-color);
     min-height: 100vh;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: var(--white-color);
+    background-color: var(--main-color);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+main {
+    width: 100%;
+    margin-top: 100px;
+}
+
+main .produtos-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+main .produtos-list .produto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #e7e7e7;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
