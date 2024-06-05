@@ -37,6 +37,7 @@ body {
 main {
     width: 100%;
     margin-top: 100px;
+    margin-bottom: 60px;
 }
 
 main .produtos-list {
@@ -51,7 +52,7 @@ main .produtos-list .produto {
     justify-content: space-between;
     margin-top: 20px;
     padding: 20px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 2px solid #ddd;
     border-radius: 5px;
     overflow-y: auto;
     box-sizing: border-box;
