@@ -69,3 +69,11 @@ footer {
     left: 0;
     right: 0;
 }
+
+footer img {
+    margin: 0px 15px;
+}
+
+.icone {
+    height: 25px;
+}
