@@ -58,6 +58,23 @@ main .produtos-list .produto {
     box-sizing: border-box;
 }
 
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #f6f8fa, #e9ecef);
+    font-size: 16px;
+    text-align: center;
+    transition: border-color 0.3s, background 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: #28a745;
+    background: linear-gradient(135deg, #e9ecef, #dee2e6);
+    outline: none;
+}
+
 footer {
     background-color: #e7e7e7;
     width: 100%;
